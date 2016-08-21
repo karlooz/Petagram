@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="tamaño_titulo">30dp</dimen>
+    <dimen name="marginleft_titulo">130dp</dimen>
+    <dimen name="padding_cv">10dp</dimen>
+    <dimen name="tamaño_nombre">25dp</dimen>
+    <dimen name="marginleft_nombre">20dp</dimen>
+    <dimen name="margintop_fab">480dp</dimen>
+    <dimen name="marginleft_fab">300dp</dimen>
+    <dimen name="elevation_fab">6dp</dimen>
+    <dimen name="elevation_cv">2dp</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actionbar"
+    app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/tamaño_titulo"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="@dimen/marginleft_titulo"
+        android:textColor="@color/colortitulo"/>
+
+    <android.support.v7.widget.ActionMenuView
+        android:id="@+id/amvFavoritas"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/estrella"
+        android:layout_marginLeft="70dp"/>
+
+</android.support.v7.widget.Toolbar>
